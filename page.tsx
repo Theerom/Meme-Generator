@@ -11,7 +11,7 @@ export default function LandingPage() {
 
   const handleShare = () => {
     const text = "Get access to the ultimate viral meme pack! 🔥"
-    const url = "https://meme-master.vercel.app"
+    const url = "https://memes-master.vercel.app"
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`
     window.open(whatsappUrl, "_blank")
   }

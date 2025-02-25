@@ -1,7 +1,7 @@
 "use client"
 
-import { MemeGenerator } from "../meme-generator"
+import Page from "../page"
 
 export default function SyntheticV0PageForDeployment() {
-  return <MemeGenerator />
+  return <Page />
 }
